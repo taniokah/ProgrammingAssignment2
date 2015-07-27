@@ -4,6 +4,7 @@
 ## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
+  ## Return a new matrix including 'x'
   inv <- NULL
   set <- function(y) {
     x <<- y
